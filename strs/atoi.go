@@ -8,7 +8,7 @@ import (
 func Atoi(a string) int {
 	i, err := strconv.Atoi(a)
 	if err != nil {
-		log.Fatalf("could not parse int: %#v", err)
+		log.Fatalf("could not parse int from '%s': %#v", a, err)
 	}
 	return i
 }

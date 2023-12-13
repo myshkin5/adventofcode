@@ -6,7 +6,6 @@ import (
 	"log"
 	"os"
 	"path/filepath"
-	"strings"
 	"unicode"
 
 	"github.com/myshkin5/adventofcode/paths"
@@ -44,7 +43,7 @@ func checkAll(previous, line, next string) int {
 	gStart := 0
 	count := 0
 	for {
-		gIdx := indexAt(line, "*", gStart)
+		gIdx := strs.IndexAt(line, "*", gStart)
 		if gIdx == -1 {
 			break
 		}
@@ -102,12 +101,4 @@ func findLastDigit(line string, idx int) int {
 		}
 	}
 	return len(line)
-}
-
-func indexAt(s, sep string, n int) int {
-	idx := strings.Index(s[n:], sep)
-	if idx > -1 {
-		idx += n
-	}
-	return idx
 }

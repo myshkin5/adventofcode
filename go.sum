@@ -1,0 +1,4 @@
+github.com/davegardnerisme/deephash v0.0.0-20210406090112-6d072427d830 h1:gn7TsPBQ3HoEUaa8oBLbMalIBPf3eeQb7W/8kK3gERk=
+github.com/davegardnerisme/deephash v0.0.0-20210406090112-6d072427d830/go.mod h1:ToGe2SdaElKXzEmYLttAgFHy0exxh0wyq9zG7ZjjjYM=
+moqueries.org/runtime v0.2.0 h1:0/J/LQaXtXoLEQq3ylOJf/ZJ0XAfOk1oFyxULuSik5Q=
+moqueries.org/runtime v0.2.0/go.mod h1:sVzS1LDG0bCn3vvtZrahBbutdrq68ZXka2q1Xzn3bz4=

@@ -1,7 +1,7 @@
 module github.com/myshkin5/adventofcode
 
-go 1.21.3
+go 1.23.1
 
-require moqueries.org/runtime v0.2.0
+require moqueries.org/runtime v0.4.0
 
-require github.com/davegardnerisme/deephash v0.0.0-20210406090112-6d072427d830 // indirect
+require moqueries.org/deephash v0.26.0 // indirect
